@@ -273,8 +273,8 @@ The variable `y` contains values of the **dependent variable**, which the networ
 >indx_train = data.indx_train;              % Training data indices
 >indx_test = data.indx_test;                % Testing data indices
 >```
-   * **Training Data:** Indices stored in `indx_train` determine the samples used for network learning.
-   * **Testing Data:** Indices stored in `indx_test` define the samples used for evaluating the network's generalization ability.
+**Training Data:** Indices stored in `indx_train` determine the samples used for network learning.
+**Testing Data:** Indices stored in `indx_test` define the samples used for evaluating the network's generalization ability.
 
 * *Assigning Data to Network Indices:*
 >```matlab
@@ -283,7 +283,7 @@ The variable `y` contains values of the **dependent variable**, which the networ
 >net.divideParam.testInd = indx_test;       % Testing data
 >net.divideParam.valInd = [];               % No validation data
 >```
-   * This section of the code explicitly sets which samples will be used for **training** and **testing** the neural network.
+This section of the code explicitly sets which samples will be used for **training** and **testing** the neural network.
 
 >:arrow_left: [**Back to *CONTENT***](#content)
 
