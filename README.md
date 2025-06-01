@@ -14,12 +14,12 @@ You can review the documentation for my two codes related to this task. :bookmar
 >* :paw_prints: [Procedure for Testing Selected 5 Points](#paw_prints-procedure-for-testing-selected-5-points)
 
 ### Approximation of a nonlinear function
->* MLP Network Structure
->* Training Parameters
->* Structure of the Neural Network
->* Training Process Progress Chart
->* Contingency Matrix (plotconfusion)
->* Procedure for Testing Selected 5 Points
+>* :page_facing_up: [MLP Network Structure](#page_facing_up-mlp-network-structure)
+>* :surfer: [Training Parameters](#surfer-training-parameters)
+>* :space_invader: [Structure of the Neural Network](#space_invader-structure-of-the-neural-network)
+>* :chart_with_downwards_trend: [Training Process Progress Chart](#chart_with_downwards_trend-training-process-progress-chart)
+>* :1234: [Contingency Matrix (plotconfusion)](#1234-contingency-matrix-plotconfusion)
+>* :paw_prints: [Procedure for Testing Selected 5 Points](#paw_prints-procedure-for-testing-selected-5-points)
 ____
 ## Classification of points :pushpin:
 For this task the goal was to create and train a **multilayer perceptron (MLP) neural network** capable of classifying points into **five groups** based on **three parameters *(x, y, z)***. The challenge was to find the **optimal network structure** (the smallest number of neurons in the hidden layer) that would allow the network to correctly classify as many points as possible, with a maximum of **two misclassified points**.
@@ -48,6 +48,7 @@ For this task the goal was to create and train a **multilayer perceptron (MLP) n
   </tr>
 </table>
 
+:arrow_left: [**Back to *CONTENT***](#content:)
 ### :surfer: Training Parameters
 ```matlab
 net.trainParam.goal = 0.001;       % Termination condition for error
