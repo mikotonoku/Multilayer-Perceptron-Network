@@ -7,27 +7,27 @@ You can review the documentation for my two codes related to this task. :bookmar
 *Content of the documentation* :arrow_down:
 ## Content:
 ### Classification of points
->* :page_facing_up: [MLP Network Structure](#page_facing_up-mlp-network-structure)
->* :surfer: [Training Parameters](#surfer-training-parameters)
->   * [Termination Conditions](#termination-conditions)
+>* :page_facing_up: [MLP Network Structure *CLASSIFICATION*](#page_facing_up-mlp-network-structure-classification)
+>* :surfer: [Training Parameters *CLASSIFICATION*](#surfer-training-parameters-classification)
+>   * [Termination Conditions *CLASSIFICATION*](#termination-conditions-classification)
 >* :space_invader: [Structure of the Neural Network](#space_invader-structure-of-the-neural-network)
->* :chart_with_downwards_trend: [Training Process Progress Chart](#chart_with_downwards_trend-training-process-progress-chart)
+>* :chart_with_downwards_trend: [Training Process Progress Chart *CLASSIFICATION*](#chart_with_downwards_trend-training-process-progress-chart-classification)
 >* :1234: [Contingency Matrix (plotconfusion)](#1234-contingency-matrix-plotconfusion)
 >* :paw_prints: [Procedure for Testing Selected 5 Points](#paw_prints-procedure-for-testing-selected-5-points)
 
 ### Approximation of a nonlinear function
->* :page_facing_up: [MLP Network Structure](#page_facing_up-mlp-network-structure)
+>* :page_facing_up: [MLP Network Structure *APPROXIMATION*](#page_facing_up-mlp-network-structure-approximation)
 >* :repeat: [Description of Input and Output Data](#repeat-description-of-input-and-output-data)
->* :surfer: [Training Parameters](#surfer-training-parameters)
->   * [Termination Conditions](#termination-conditions)
->* :chart_with_downwards_trend: [Training Process Progress Chart](#chart_with_downwards_trend-training-process-progress-chart)
+>* :surfer: [Training Parameters *APPROXIMATION*](#surfer-training-parameters-approximation)
+>   * [Termination Conditions *APPROXIMATION*](#termination-conditions-approximation)
+>* :chart_with_downwards_trend: [Training Process Progress Chart *APPROXIMATION*](#chart_with_downwards_trend-training-process-progress-chart-approximation)
 >* :arrow_right: [Function Output and Neural Network Performance](#arrow_right-function-output-and-neural-network-performance)
 >* :no_entry: [SSE, MSE, MAE](#no_entry-sse-mse-mae)
 ____
 ## Classification of points :pushpin:
 For this task the goal was to create and train a **multilayer perceptron (MLP) neural network** capable of classifying points into **five groups** based on **three parameters *(x, y, z)***. The challenge was to find the **optimal network structure** (the smallest number of neurons in the hidden layer) that would allow the network to correctly classify as many points as possible, with a maximum of **two misclassified points**.
 
-### :page_facing_up: MLP Network Structure
+### :page_facing_up: MLP Network Structure *CLASSIFICATION*
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/1b7756b6-89fe-4a46-8088-be122edffc2a" width="200"></td>
@@ -52,7 +52,7 @@ For this task the goal was to create and train a **multilayer perceptron (MLP) n
 </table>
 
 >:arrow_left: [**Back to *CONTENT***](#content)
-### :surfer: Training Parameters
+### :surfer: Training Parameters *CLASSIFICATION*
 ```matlab
 net.trainParam.goal = 0.001;       % Termination condition for error
 net.trainParam.show = 20;          % Frequency of error display
@@ -60,7 +60,7 @@ net.trainParam.epochs = 1000;      % Maximum number of epochs
 net.trainParam.max_fail = 12;      % Maximum number of failed validations
 ```
 
-#### *Termination Conditions:*
+#### *Termination Conditions:* *CLASSIFICATION*
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/8c62337a-2d97-49ef-b441-43019f146adf" width="200"></td>
@@ -105,7 +105,7 @@ net.trainParam.max_fail = 12;                   % Maximum number of failed valid
 
 >:arrow_left: [**Back to *CONTENT***](#content)
 
-### :chart_with_downwards_trend: *Training Process Progress Chart:*
+### :chart_with_downwards_trend: *Training Process Progress Chart:* *CLASSIFICATION*
 ![image](https://github.com/user-attachments/assets/0e3a2231-1a98-48ee-a0cd-691a0da0884d)
 
 The chart illustrates the **training process** of the neural network and the **error reduction** over training epochs.
@@ -223,7 +223,7 @@ ____
 ## Approximation of a nonlinear function :pushpin:
 For this task the goal was to create and train a **multilayer perceptron (MLP) neural network** capable of approximating a **nonlinear function**. The challenge was to find the **optimal network structure** (the smallest number of neurons in the hidden layer) and set training parameters to achieve **minimal deviation** on test data while ensuring the function output closely matched measured data.
 
-### :page_facing_up: MLP Network Structure
+### :page_facing_up: MLP Network Structure *APPROXIMATION*
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/78ca259b-7cd5-4fb7-bb44-92dc91fce46b" width="200"></td>
@@ -288,7 +288,7 @@ This section of the code explicitly sets which samples will be used for **traini
 
 >:arrow_left: [**Back to *CONTENT***](#content)
 
-### :surfer: Training Parameters
+### :surfer: Training Parameters *APPROXIMATION*
 | Neural Network Training *10 neurons* | Neural Network Training *25 neurons* | Neural Network Training *50 neurons* |
 | ---------------------------------- |:----------------------------------:| ----------------------------------:|
 | ![image](https://github.com/user-attachments/assets/0b1d1f6a-8324-4d03-923b-0abc00236e76) | ![image](https://github.com/user-attachments/assets/199c12cd-9040-49e5-8036-3223da03eb79) | ![image](https://github.com/user-attachments/assets/1dafe01a-6fb4-45f3-b8e9-e2fced6d6add) |
@@ -301,13 +301,13 @@ This section of the code explicitly sets which samples will be used for **traini
 * *`net.trainParam.show = 5;`*
    * **Error display frequency:** Errors are displayed every **5 epochs** to transparently monitor the training process.
 
->:paperclip: #### **Criterion Function Used:**
+>:paperclip: ***Criterion Function Used:***
 > * The **Sum of Squared Errors (SSE)** criterion function is used to evaluate network performance.
 > * MATLAB automatically applies **Mean Squared Error (MSE)** as a derived format, which is useful for optimizing weights during training.
 
 >:arrow_left: [**Back to *CONTENT***](#content)
 
-### :chart_with_downwards_trend: *Training Process Progress Chart:*
+### :chart_with_downwards_trend: *Training Process Progress Chart:* *APPROXIMATION*
 ![image](https://github.com/user-attachments/assets/d2bd49b6-4400-40e5-ac76-b7e2954eeed7)  
 #### POOR LEARNING WITH - 10 Neurons 
 > :x: *The network did not learn effectively when the hidden layer contained only **10 neurons**.*
