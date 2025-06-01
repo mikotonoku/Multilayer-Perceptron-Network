@@ -6,7 +6,7 @@ You can review the documentation for my two codes related to this task. :bookmar
 
 ## Content:
 ### Classification of points
->* :page_facing_up: MLP Network Structure
+>* :page_facing_up: [MLP Network Structure](#page_facing_up-mlp-network-structure)
 >* :surfer: Training Parameters
 >* :space_invader: Structure of the Neural Network
 >* :chart_with_downwards_trend: Training Process Progress Chart
@@ -24,7 +24,7 @@ ____
 ## Classification of points :pushpin:
 For this task the goal was to create and train a **multilayer perceptron (MLP) neural network** capable of classifying points into **five groups** based on **three parameters *(x, y, z)***. The challenge was to find the **optimal network structure** (the smallest number of neurons in the hidden layer) that would allow the network to correctly classify as many points as possible, with a maximum of **two misclassified points**.
 
-### MLP Network Structure
+### :page_facing_up: MLP Network Structure
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/1b7756b6-89fe-4a46-8088-be122edffc2a" width="200"></td>
@@ -48,7 +48,7 @@ For this task the goal was to create and train a **multilayer perceptron (MLP) n
   </tr>
 </table>
 
-### Training Parameters
+### :surfer: Training Parameters
 ```matlab
 net.trainParam.goal = 0.001;       % Termination condition for error
 net.trainParam.show = 20;          % Frequency of error display
@@ -82,7 +82,7 @@ net.trainParam.max_fail = 12;      % Maximum number of failed validations
 >:exclamation: The **criterion function** used is not explicitly stated in the given code, but it is implicitly included in the training method
 *`train(net, datainnet, dataoutnet)`*.
   
-### Structure of the Neural Network
+### :space_invader: Structure of the Neural Network
 ```matlab 
 % Setting parameters for splitting data into training and testing 
 net.divideFcn = 'dividerand';                   % Random split 
