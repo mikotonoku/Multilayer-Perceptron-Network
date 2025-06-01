@@ -396,8 +396,10 @@ This section of the code explicitly sets which samples will be used for **traini
 >```
 
 >:heavy_exclamation_mark: *On the **screenshots of the results**, the **training and testing** results are written in **Slovak**.*
+>
 >* The **upper section** of the screenshot contains the **training results**.
 >* The **lower section** displays the **testing results**.
+>
 >In the **published code**, these labels have already been **translated into English**.
 
 >:arrow_left: [**Back to *CONTENT***](#content)
