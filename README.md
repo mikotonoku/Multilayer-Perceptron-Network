@@ -48,7 +48,7 @@ For this task the goal was to create and train a **multilayer perceptron (MLP) n
   </tr>
 </table>
 
-:arrow_left: [**Back to *CONTENT***](#content:)
+:arrow_left: [**Back to *CONTENT***](#content)
 ### :surfer: Training Parameters
 ```matlab
 net.trainParam.goal = 0.001;       % Termination condition for error
