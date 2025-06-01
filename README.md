@@ -82,7 +82,9 @@ net.trainParam.max_fail = 12;      % Maximum number of failed validations
 
 >:exclamation: The **criterion function** used is not explicitly stated in the given code, but it is implicitly included in the training method
 *`train(net, datainnet, dataoutnet)`*.
-  
+
+>:arrow_left: [**Back to *CONTENT***](#content)
+
 ### :space_invader: Structure of the Neural Network
 ```matlab 
 % Setting parameters for splitting data into training and testing 
