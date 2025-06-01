@@ -3,6 +3,7 @@ Example of two simple multilayer perceptron networks written in MATLAB.
 The purpose of the task was to create a **multilayer perceptron (MLP) neural network** for **classification and approximation**.
 
 You can review the documentation for my two codes related to this task. :bookmark_tabs:
+
 *Content of the documentation* :arrow_down:
 ## Content:
 ### Classification of points
