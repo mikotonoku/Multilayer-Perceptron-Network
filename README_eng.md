@@ -5,21 +5,21 @@ The purpose of the task was to create a **multilayer perceptron (MLP) neural net
 You can review the documentation for my two codes related to this task. :bookmark_tabs:
 
 ## Content:
-   Classification of points
-      * MLP Network Structure
-      * Training Parameters
-      * Structure of the Neural Network
-      * Training Process Progress Chart
-      * Contingency Matrix (plotconfusion)
-      * Procedure for Testing Selected 5 Points
-    
-   Approximation of a nonlinear function
-      * MLP Network Structure
-      * Training Parameters
-      * Structure of the Neural Network
-      * Training Process Progress Chart
-      * Contingency Matrix (plotconfusion)
-      * Procedure for Testing Selected 5 Points
+### Classification of points
+>* :page_facing_up: MLP Network Structure
+>* :surfer: Training Parameters
+>* :space_invader: Structure of the Neural Network
+>* :chart_with_downwards_trend: Training Process Progress Chart
+>* :1234: Contingency Matrix (plotconfusion)
+>* :paw_prints: Procedure for Testing Selected 5 Points
+
+### Approximation of a nonlinear function
+>* MLP Network Structure
+>* Training Parameters
+>* Structure of the Neural Network
+>* Training Process Progress Chart
+>* Contingency Matrix (plotconfusion)
+>* Procedure for Testing Selected 5 Points
 ____
 ## Classification of points :pushpin:
 For this task the goal was to create and train a **multilayer perceptron (MLP) neural network** capable of classifying points into **five groups** based on **three parameters *(x, y, z)***. The challenge was to find the **optimal network structure** (the smallest number of neurons in the hidden layer) that would allow the network to correctly classify as many points as possible, with a maximum of **two misclassified points**.
@@ -143,7 +143,7 @@ The chart illustrates the **training process** of the neural network and the **e
 >plotconfusion(dataoutnet, outnetsim);
 >```
 
-### :feet: *Procedure for Testing Selected 5 Points:*
+### :paw_prints: *Procedure for Testing Selected 5 Points:*
 ![image](https://github.com/user-attachments/assets/e1d85d92-af08-41f0-b5e7-1897ece094df)
 
 :new: *Definition of New Points:*
