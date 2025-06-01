@@ -60,7 +60,7 @@ net.trainParam.epochs = 1000;      % Maximum number of epochs
 net.trainParam.max_fail = 12;      % Maximum number of failed validations
 ```
 
-#### *Termination Conditions:* *CLASSIFICATION*
+#### *Termination Conditions* *CLASSIFICATION:*
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/8c62337a-2d97-49ef-b441-43019f146adf" width="200"></td>
@@ -105,7 +105,7 @@ net.trainParam.max_fail = 12;                   % Maximum number of failed valid
 
 >:arrow_left: [**Back to *CONTENT***](#content)
 
-### :chart_with_downwards_trend: *Training Process Progress Chart:* *CLASSIFICATION*
+### :chart_with_downwards_trend: *Training Process Progress Chart* *CLASSIFICATION:*
 ![image](https://github.com/user-attachments/assets/0e3a2231-1a98-48ee-a0cd-691a0da0884d)
 
 The chart illustrates the **training process** of the neural network and the **error reduction** over training epochs.
@@ -307,7 +307,7 @@ This section of the code explicitly sets which samples will be used for **traini
 
 >:arrow_left: [**Back to *CONTENT***](#content)
 
-### :chart_with_downwards_trend: *Training Process Progress Chart:* *APPROXIMATION*
+### :chart_with_downwards_trend: *Training Process Progress Chart* *APPROXIMATION:*
 ![image](https://github.com/user-attachments/assets/d2bd49b6-4400-40e5-ac76-b7e2954eeed7)  
 #### POOR LEARNING WITH - 10 Neurons 
 > :x: *The network did not learn effectively when the hidden layer contained only **10 neurons**.*
