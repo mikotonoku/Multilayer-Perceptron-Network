@@ -293,7 +293,7 @@ This section of the code explicitly sets which samples will be used for **traini
 | ---------------------------------- |:----------------------------------:| ----------------------------------:|
 | ![image](https://github.com/user-attachments/assets/0b1d1f6a-8324-4d03-923b-0abc00236e76) | ![image](https://github.com/user-attachments/assets/199c12cd-9040-49e5-8036-3223da03eb79) | ![image](https://github.com/user-attachments/assets/1dafe01a-6fb4-45f3-b8e9-e2fced6d6add) |
 
-#### *Termination Conditions:*
+#### *Termination Conditions APPROXIMATION:*
 * *`net.trainParam.goal = 1e-4;`*
    * **Target error threshold:** Training stops when the error between predicted values and actual outputs falls below **0.0001**.
 * *`net.trainParam.epochs = 1000;`*
