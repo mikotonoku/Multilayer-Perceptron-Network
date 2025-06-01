@@ -1,17 +1,17 @@
 # Multilayer Perceptron Network
 Example of two simple multilayer perceptron networks written in MATLAB.
-The purpose of the task was to create a **multilayer perceptron (MLP) neural network** for **[classification](#classification-of-points-pushpin) and approximation**.
+The purpose of the task was to create a **multilayer perceptron (MLP) neural network** for **classification and approximation**.
 
 You can review the documentation for my two codes related to this task. :bookmark_tabs:
 
 ## Content:
 ### Classification of points
 >* :page_facing_up: [MLP Network Structure](#page_facing_up-mlp-network-structure)
->* :surfer: Training Parameters
->* :space_invader: Structure of the Neural Network
->* :chart_with_downwards_trend: Training Process Progress Chart
->* :1234: Contingency Matrix (plotconfusion)
->* :paw_prints: Procedure for Testing Selected 5 Points
+>* :surfer: [Training Parameters](#surfer-training-parameters)
+>* :space_invader: [Structure of the Neural Network](#space_invader-structure-of-the-neural-network)
+>* :chart_with_downwards_trend: [Training Process Progress Chart](#chart_with_downwards_trend-training-process-progress-chart)
+>* :1234: [Contingency Matrix (plotconfusion)](#1234-contingency-matrix-plotconfusion)
+>* :paw_prints: [Procedure for Testing Selected 5 Points](#paw_prints-procedure-for-testing-selected-5-points)
 
 ### Approximation of a nonlinear function
 >* MLP Network Structure
